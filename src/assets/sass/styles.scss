@@ -1,3 +1,125 @@
-@import 'normalize.scss';
-@import 'nav.scss';
+$black-color: #231f20;
+
+@font-face{
+  font-family: 'gotham';
+  src: url('../fonts/Gotham-Medium.ttf');
+}
+
+*{
+  font-family: gotham;
+
+}
+#navbar{
+  height: 150px;
+  background-color: white;
+  margin-bottom: 0px;
+  .logo{
+    height: 80px;
+    img{
+      height: 80px;
+    }
+  }
+  .logo1{
+    text-align: right;
+    color: black;
+    font-size: 28px;
+    height: 80px;
+    padding: 15px;
+  }
+  ul{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+    li{
+      a{
+        font-size: 20px;
+        color: black;
+      }
+    }
+  }
+}
+
+#portada{
+  padding-top: 150px;
+  background-image: url('../img/sismo_aerea.jpg');
+  height: 400px;
+}
+
+#descripcion{
+  background-color: $black-color;
+  height: 200px;
+  padding-top: 30px;
+  margin-top: 20px;
+  p{
+    color: white;
+    font-size: 25px;
+    color: #afb1b3;
+    strong{
+      color: white;
+    }
+  }
+}
+
+#detalles{
+  h3{
+    font-size: 28px;
+  }
+  #queHacemos{
+    height: 250px;
+    border: solid 2px;
+    padding-top: 30px;
+  }
+  #comoAyudar{
+    background-color: $black-color;
+    height: 500px;
+    padding-top: 30px;
+    color: white;
+    p{
+      display: inline-block;
+      font-size: 25px;
+    }
+    img{
+      height:300px;
+    }
+  }
+  #reporta{
+    padding-top: 50px;
+    background-color: $black-color;
+    color: white;
+    height: 300px;
+    h3{
+      font-size: 45px;
+    }
+  }
+}
+
+.line{
+  border-bottom: solid 2px white;
+  width: 50px !important;
+  display: inline-block;
+}
+
+.line-black{
+  border-bottom: solid 2px black;
+  width: 50px !important;
+  display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
