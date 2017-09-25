@@ -31,7 +31,7 @@ body{
   }
 }
 #navbar{
-  height: 150px;
+  height: auto;
   background-color: white;
   margin-bottom: 0px;
   @media screen and (max-width: 480px ){
@@ -66,6 +66,7 @@ body{
       a{
         font-size: 20px;
         color: black;
+        line-height: 1;
       }
     }
   }
