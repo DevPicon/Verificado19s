@@ -1,300 +1,238 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Verificado19s</title>
+  <meta name="viewport" content="Verificado19s">
+  <meta name="description" content="Verificado19s" />
+  <meta name="keywords" content="Verificado19s, sismo, 19 de septiembre, temblor,Edificios Dañados, Derrumbados, Fugas de Gas, Edificios Dañados, Derrumbados, Fugas de Gas, Albergues, terremoto, mapa" />
+  <meta name="author" content="Verificado19s" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <nav id="navbar" class="navbar row">
+    <div class="nav-wrapper container">
+      <a href="#" class="col m6  logo hide-on-med-and-down"><img src="assets/img/logo.png" alt=""></a>
+      <a href="" class="col m6 logo1 s8">#VERIFICADO19S</a>
+      <!-- <img src="assets/img/menu-icon.png" alt="" class="logo-mobile col s3"> -->
+      <ul id="nav-mobile" class="right hide-on-med-and-down col m12">
+        <li><a href="#nosotros">¿QUIÉNES SOMOS?</a></li>
+        <li><a href="#nosotros">¿CÓMO SURGIMOS?</a></li>
+        <li><a href="https://twitter.com/verificado19s">TWITTER-CDMX</a></li>
+        <li><a href="https://twitter.com/v19sESTADOS">TWITTER-ESTADOS</a></li>
+      </ul>
+    </div>
+  </nav>
 
-<html>
-	<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Verificado19s</title>
-	<meta name="viewport" content="Verificado19s">
-	<meta name="description" content="Verificado19s" />
-	<meta name="keywords" content="Verificado19s, sismo, 19 de septiembre, temblor,Edificios Dañados, Derrumbados, Fugas de Gas, Edificios Dañados, Derrumbados, Fugas de Gas, Albergues, terremoto, mapa" />
-	<meta name="author" content="Verificado19s" />
+  <section id="cover" class="cover">
+    <div class="info-cover">
+      <div class="container col m12 center">
+        <p><strong>#Verificado19S</strong> es una plataforma digital que verifica y organiza información
+          para hacer más eficiente la respuesta ciudadana tras el sismo del 19 de
+          septiembre pasado.</p>
+      </div>
+    </div>
+    <div class="submit-report">
+      <div class="container">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeu6rm6OocQiL0H73kw2mH62R3vgGjJpr6cAw3w3j-vhtEYcw/viewform" class="hoverable">REPORTA AQUÍ</a>
+      </div>
+    </div>
+  </section>
 
-  	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
+  <section id="mapaSismo" class="mapa-sismo row">
+      <div class="container">
+        <div class="line-black col m1 right"></div>
+        <div class="line-black col m1 left"></div>
+        <h3 class="col m12 mapa-titulo">MAPA</h3>
 
-	<!-- <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet"> -->
+        <div id="mapa" data-section="mapa">
+          <iframe width="100%" height="600" frameborder="0" style="border:0;"
+            src="http://bit.ly/Verificado19sMAPA" allowfullscreen>
+          </iframe>
+        </div>
 
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Themify Icons-->
-	<link rel="stylesheet" href="css/themify-icons.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<!-- Magnific Popup -->
-	<link rel="stylesheet" href="css/magnific-popup.css">
-	<!-- Owl Carousel  -->
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
-	<!-- Flexslider -->
-	<link rel="stylesheet" href="css/flexslider.css">
-	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
+        <div class="infoMapa" class="info-mapa">
+          <h3>Las Capas de Información que se tienen cargadas en el Mapa de Crisis de Verificado19s son las siguientes:</h3>
+          <ul id="descripcionMapa">
+            <li><a class="negrita">#Verificado 19s:</a> Datos Verificados por nosotros con nuestro equipo en campo y son</li>
+            <li><a class="negrita">Daños últimas 24 horas:</a> Daños reportados en las últimas 24 horas que pueden ser derrumbes, fugas etc.</li>
+            <li><a class="negrita">Acopio últimas 24 horas:</a> Centros de Acopio.</li>
+            <li><a class="negrita">Albergues últimas 24 horas:</a> Albergues reportados últimas 24 horas.</li>
+            <li><a class="negrita">Datos por Verificar:</a> Datos que recibimos vía encuestas externas y otras fuentes pendientes de validar, una vez validados pasan a la capa de #Verificado19s</li>
+            <li><a class="negrita">Municipios en estado de emergencia:</a> Señalados por gobernación.</li>
+            <li><a class="negrita">Centros de acopio:</a> Fuente proporcionada por Grupo Walmart</li>
+            <li><a class="negrita">Derrumbes:</a> Capa de información tomada de gob.mx</li>
+            <li><a class="negrita">Puntos de acceso a Internet libre en CDMX</a></li>
+            <li><a class="negrita">Reportes de necesidades actualizas:</a> Capa de Información proveniente de (Sismo México)</li>
+            <li><a class="negrita">Ofrezco/Necesito:</a> Capa de información de Manos a la obra</li>
+          </ul>
+        </div>
 
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
+       
+    </section>
 
-	</head>
-	<body>
+  <section id="detalles" class="detalles row">
+    <article id="comoAyudar" class="comoAyudar">
+      <div class="container hide-on-med-and-down">
+        <div class="detalles-texto col m12">
+          <h3>¿CÓMO PUEDES AYUDAR?</h3>
+          <div class="line col m1 right"></div>
+          <div class="line col m1 left"></div>
+          <p class="parrafo">Compártenos información de daños, centros de acopio o albergues</p>  
+        </div>
+        <div class="pictoline col m12">
+          <img src="assets/img/picto_1.jpg" alt="" class="col m7">
+          <img src="assets/img/picto_2.jpg" alt="" class="col m5">
+        </div>
+      </div>
 
-	<div class="gtco-loader"></div>
+      <div class="hide-on-med-and-up">
+        <div class="detalles-texto col m12 s12">
+          <h3>¿CÓMO PUEDES AYUDAR?</h3>
+          <div class="line col m1 right"></div>
+          <div class="line col m1 left"></div>
+          <p>Compártenos información de daños, centros de acopio o albergues</p>  
+        </div>
+        <div class="pictoline col m12 s12">
+          <img src="assets/img/picto_1.jpg" alt="" class="col m7 s12">
+          <img src="assets/img/picto_2.jpg" alt="" class="col m5 s12">
+        </div>
+      </div>
+    </article>
 
-	<div id="page">
-	<nav class="gtco-nav" role="navigation">
-		<div class="gtco-container">
-			<div class="row">
-				<div class="col-sm-2 col-xs-12">
-					<div id="gtco-logo"><a href="index.html">Verificado19s<em>.</em></a></div>
-				</div>
-				<div class="col-xs-10 text-right menu-1 main-nav">
-					<ul>
-						<li class="active"><a href="#" data-nav-section="home">Home</a></li>
-							<li><a href="#" data-nav-section="colaborate">Contribuye</a></li>
-						<li><a href="#" data-nav-section="about">Acerca</a></li>
-						<li><a href="http://bit.ly/Verificado19sMAPA" class="external">Mapa</a></li>
-					</ul>
-				</div>
-			</div>
+    <article id="queHacemos" class="que-hacemos">
+      <div class="container">
+        <div class="line-black col m1 right">
+        </div>
+        <div class="line-black col m1 left">
+        </div>
+        <div class="detalles-texto col m12">
+          <h3>¿QUÉ HACEMOS?</h3>
+          <p>A partir de la información que recibimos e integramos en nuestras bases de datos, generamos
+        un mapa y coordinamos un equipo que corrobora la información sobre el terreno.</p>  
+        </div>
+        <div class="line-black col m1 right">
+        </div>
+        <div class="line-black col m1 left">
+      </div>
+    </article>
+    <!-- <article id="reporta" class="reporta">
+      <div class="container">
+        <div class="detalles-texto col m12 center">
+          <div class="line"></div>
+          <h3>REPORTA AQUÍ</h3>
+          <div class="line"></div>
+          <p>Ayúdanos a confirmar la información que ya existe
+            Usa la información para hacer más eficiente la respuesta ciudadana</p>  
+        </div>
+        <div class="line col m1 right">
+        </div>
+        <div class="line col m1 left">
+      </div>
+    </article> -->
+  </section>
 
-		</div>
-	</nav>
+  <section id="feed" class="feed row">
+    <div class="container">
+      <h3 class="titulo-feed center">¿QUÉ MÁS PUEDO HACER?</h3>
+      <div class="line-grey col m1 left"></div>
+      <div class="line-grey col m1 right"></div>
+      <h3>DONACIONES:</h3>
+      <p class="parrafo">Si quieres donar cosas, pero no sabes a dónde ir consulta las siguientes cuentas de Twitter:</p>
+      <div class="col m12 tweets">
+        <div class="col m6">
+          <a class="twitter-timeline" data-height="350" href="https://twitter.com/verificado19s">Tweets by verificado19s</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        <div class="col m6">
+          <a class="twitter-timeline" data-height="350" href="https://twitter.com/V19sESTADOS">Tweets by V19sESTADOS</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+      </div>
+      <div class="info-feed">
+        <p class="parrafo">Nuestro equipo de #Verificado19S comparte información en tiempo real sobre las necesidades más urgentes de la Ciudad de México y los Estados. Esta información está verificada. </p>
+        <p class="parrafo">Recuerda que la situación de cada lugar cambia muy rápido --> fíjate bien en la hora e infórmate de nuevo antes de salir a ayudar. </p>
+      </div>
+      <div class="col m12 show-on-med-and-down">
+        <div class="col m7">
+          <div class="line-grey col m1 left"></div>
+          <a href="http://bit.ly/Verificado19sTRANSPORTE" style="color:white;"><h3>OFERTA DE AYUDA:</h3></a>
+          <div class="line-grey col m1 left"></div>
+        </div>
+        <div class="col m5">
+          <div class="line-grey col m1 left"></div>
+          <div class="line-grey col m1 right"></div>
 
-	<div id="gtco-hero" class="js-fullheight" data-section="home">
-		<div class="flexslider js-fullheight">
-			<ul class="slides">
-		   	<li style="background-image: url(images/img_bg_1.jpg);">
-		   		<div class="overlay"></div>
-		   		<div class="container">
-		   			<div class="col-md-10 col-md-offset-1 text-center js-fullheight slider-text">
-		   				<div class="slider-text-inner">
-		   					<h2>Herramienta de verificacion de reportes de daños y necesidades en terreno.</h2>
-		   					<br/><p><a href="http://bit.ly/Verificado19sMAPA" target="_blank" class="btn btn-primary btn-lg">Ir al mapa en tiempo real</a></p>
-		   				</div>
-		   			</div>
-		   		</div>
-		   	</li>
-		  	</ul>
-	  	</div>
-	</div>
+          <a href="http://bit.ly/Verificado19sTRANSPORTE"><img src="assets/img/list.png" alt=""></a>
 
+          <div class="line-grey col m1 left"></div>
+          <div class="line-grey col m1 right"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
 
-	<div id="gtco-blog" data-section="colaborate">
-		<div class="gtco-container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
-					<h2>#Verificado19s</h2>
-					<p>Construimos un proceso humano y herramientas tecnológicas para poder validar y centralizar la información y desplegarla utilizando Google Crisis Map.</p>
-					<p>Requerimos tus datos personales y te contactaremos por teléfono, aunque no publicaremos información sensible.</p>
-					<p>Mientras más específico sea el reporte, mejor. Acércate en los sitios de riesgo y corrobora que los hechos sean reales.</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-4">
-					<a href="http://bit.ly/Verificado19s" class="gtco-card-item has-text">
-						<figure>
-							<div class="overlay"><i class="ti-plus"></i></div>
-							<img src="images/3.jpg" alt="Image" class="img-responsive">
-						</figure>
-						<div class="gtco-text text-left">
-							<h2>Reporta un riesgos.</h2>
-						</div>
-					</a>
-				</div>
+  <section id="nosotros" class="nosotros row">
+    <div class="container">
+      <article class="somos">
+        <div class="line-black col m1 right"></div>
+        <div class="line-black col m1 left"></div>
+        <h3>¿QUIÉNES SOMOS?</h3>
+        <p class="parrafo">Esta plataforma es posible gracias a la colaboración de voluntarios ciudadanos y organizaciones como Ahora, Artículo 19, Ayuda Óptima, Bicitekas, CartoCrítica, Cítrico Gráfico, Centro Pro de Derechos Humanos, Cencos, Codeando México, Cultura Colectiva,  Data Cívica, Datank.ai, Democracia Deliberada, Devf, Estrategia Digital Nacional, Fósforo,  Horizontal, La Lonja MX, OPI, Oxfam, Revista Paradigmas, R3D, Serapaz, Social TIC, The Data Pub, Tú Constituyente; con el apoyo de Google, McKinsey y Vice.</p>
+      </article>
+      <article class="surgimos">
+        <div class="line-black col m1 right"></div>
+        <div class="line-black col m1 left"></div>
+        <h3>¿CÓMO SURGIMOS?</h3>
+        <p class="parrafo">Ante la emergencia humanitaria provocada por el terremoto del 19 de septiembre, un grupo
+          de activistas, periodistas y programadores decidieron reunirse en el Centro Cultural Horizontal
+          para buscar formas de verificar la información que aparecía en medios de comunicación y
+          redes sociales. Con la colaboración inicial de programadores desarrollamos un mapa y una
+          base de datos colaborativa y que actualmente es la plataforma más certera, más actualizada y
+          más visitada de datos sobre el terremoto. <br><br>
+          Además de la Ciudad de México, ya se incluye información de todos los estados afectados por
+          el terremoto del 19 de septiembre.</p>
+        <div class="line-black col m1 right"></div>
+        <div class="line-black col m1 left"></div>
+      </article>
+    </div>
+  </section>
 
-				<div class="col-md-4">
-					<a href="http://bit.ly/Verificado19sCENTRO" class="gtco-card-item has-text">
-						<figure>
-							<div class="overlay"><i class="ti-plus"></i></div>
-							<img src="images/2.jpg" alt="Image" class="img-responsive">
-						</figure>
-						<div class="gtco-text text-left">
-							<h2>Registra un centro de acopio.</h2>
-						</div>
-					</a>
-				</div>
-				<div class="clearfix visible-sm-block"></div>
-
-				<div class="col-md-4">
-					<a href="http://bit.ly/Verificado19sALBERGUE" class="gtco-card-item has-text">
-						<figure>
-							<div class="overlay"><i class="ti-plus"></i></div>
-							<img src="images/1.jpg" alt="Image" class="img-responsive">
-						</figure>
-						<div class="gtco-text text-left">
-							<h2>Registra un albergue.</h2>
-						</div>
-					</a>
-				</div>
-
-				<div class="col-md-4">
-					<a href="http://bit.ly/Verificado19sTRANSPORTE" class="gtco-card-item has-text">
-						<figure>
-							<div class="overlay"><i class="ti-plus"></i></div>
-							<img src="images/4.jpg" alt="Image" class="img-responsive">
-						</figure>
-						<div class="gtco-text text-left">
-							<h2>Registra un transporte disponible.</h2>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-4">
-					<a href="http://bit.ly/Voluntariado19s" class="gtco-card-item has-text">
-						<figure>
-							<div class="overlay"><i class="ti-plus"></i></div>
-							<img src="images/5.jpg" alt="Image" class="img-responsive">
-						</figure>
-						<div class="gtco-text text-left">
-							<h2>Únete como voluntario.</h2>
-						</div>
-					</a>
-				</div>
-				<div class="clearfix visible-lg-block visible-md-block"></div>
-			</div>
-		</div>
-	</div>
-
-
-	<div class="gtco-section-overflow">
-		<div class="gtco-section" id="gtco-services" data-section="about">
-			<div class="gtco-container">
-				<div class="row">
-					<div class="col-md-6">
-						<div class="gtco-heading">
-							<h2 class="gtco-left">Acerca</h2>
-							<p>Centro Horizontal, en conjunto con sociedad civil y el equipo de Google Crisis Response está desarrollando un mecanismo de disminución de desinformación que consta de lo siguiente:</p>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-6">
-						<div class="row">
-							<div class="col-md-12">
-								<div class="feature-left">
-									<span class="icon">
-										<i class="icon-paper-clip"></i>
-									</span>
-									<div class="feature-copy">
-										<h3>Match de necesidades con recursos</h3>
-										<p>Conectamos necesidades materiales y/o humanas con recursos disponibles a nivel de campo y en el menor tiempo que las condiciones lo permitan.</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-12">
-								<div class="feature-left">
-									<span class="icon">
-										<i class="icon-map"></i>
-									</span>
-									<div class="feature-copy">
-										<h3>Mapa con diferentes fuentes de datos verificadas</h3>
-										<p>Concentramos bases de datos de diferentes fuentes completamente verificadas por humanos: Waze, Estrategia Digital Nacional, Harvard, MIT, sociedad civil, etc y las desplegamos en un mapa.</p>
-									</div>
-								</div>
-							</div>
-
-						</div>
-					</div>
-					<div class="col-md-6 animate-box" data-animate-effect="fadeIn">
-						<div class="row">
-							<div class="col-md-12">
-								<div class="feature-left">
-									<span class="icon">
-										<i class="icon-pencil"></i>
-									</span>
-									<div class="feature-copy">
-										<h3>Reporte Ciudadano</h3>
-										<p>Permite a los ciudadanos que se encuentran en campo reportar riesgos, centros de acopio, albergues, transporte disponible, voluntariado y otros recursos materiales.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="row">
-							<div class="col-md-12">
-								<div class="feature-left">
-									<span class="icon">
-										<i class="icon-monitor"></i>
-									</span>
-									<div class="feature-copy">
-										<h3>Desarrollo tecnológico</h3>
-										<p>Construimos herramientas digitales para eficientar procesos y tratamos, centralizamos y desplegamos información en Google Crisis Map.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	</div>
-
-	<div id="gtco-contact" data-section="contact" class="gtco-cover gtco-cover-xs" style="background-image:url(images/fuerza.jpg);">
-		<div class="overlay"></div>
-		<div class="gtco-container">
-			<div class="row text-center">
-				<div class="display-t">
-					<div class="display-tc">
-						<div class="col-md-12">
-							<h3></h3>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+  <section id="invites" class="invites">
+    <div class="container">
+      <article class="invite">
+        <div class="line col m1 right"></div>
+        <div class="line col m1 left"></div>
+        <h3 class="parrafo">Invitamos a la gente a que haga suya la plataforma con la
+          elaboración de reportes. El trabajo de los verificadores
+          voluntarios es fundamental para su funcionamiento.</h3>
+      </article>
+      <!-- <article class="invite">
+        <div class="line col m1 right"></div>
+        <div class="line col m1 left"></div>
+        <h3>Invitamos a la gente a que haga suya la plataforma con la
+          elaboración de reportes. El trabajo de los verificadores
+          voluntarios es fundamental para su funcionamiento.</h3>
+        <div class="line col m1 right"></div>
+        <div class="line col m1 left"></div>
+      </article> -->
+    </div>
+  </section>
+  
+  <section id="collaborators">
+    <div class="fondo">
+      <div class="container">
+        <h3>COLABORADORES:</h3>
+        <p class="parrafo_small">Alma Gabriela Márquez, Alejandro Nivón, Alejandro Maza, Alejandra Ruiz, Ali González, Alfonso Flores, Ángel Luna, Ángel Ángeles, Armando Picón, Cesar Jerónimo Esquinca, Diego Morales De Murga, Enrique Díaz, Eréndira Derbez, Francisco Vaquero, Irving Simonin, Jerónimo Carvajal, Jesús Ramos, Juan Zinser, Julio Mena, Lorena Piedras, Liliana Millán, Miguel Ángel Escalante, Miguel Riego, Mónica Meltis, Oscar Francisco Mekler, Paris Eduardo Méndez, Raúl Peralta, Rodrigo Floriano, Salvador Bolaños, Sandra Barrón, Sergio Beltrán García, Sandra Patargo y muchos muchos más a quienes continuaremos incluyendo en esta lista a lo largo de los siguientes días. </p>
+      </div>
+    </div>
+  </section>
 
 
-	<footer id="gtco-footer" role="contentinfo">
-		<div class="gtco-container">
-			<div class="row copyright">
-				<div class="col-md-12">
-					<p class="pull-left">
-						<small class="block">#Verificado19s.</small>
-					</p>
-				</div>
-			</div>
-		</div>
-	</footer>
-	</div>
-
-	<div class="gototop js-top">
-		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
-	</div>
-
-	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Carousel -->
-	<script src="js/owl.carousel.min.js"></script>
-	<!-- countTo -->
-	<script src="js/jquery.countTo.js"></script>
-	<!-- Flexslider -->
-	<script src="js/jquery.flexslider-min.js"></script>
-	<!-- Magnific Popup -->
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/magnific-popup-options.js"></script>
-	<!-- Main -->
-	<script src="js/main.js"></script>
-
-	</body>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+</body>
 </html>
