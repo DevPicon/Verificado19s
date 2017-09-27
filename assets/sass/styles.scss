@@ -8,7 +8,8 @@
 
 
 $black-color: #231f20;
-$brown-color: #aa9999;
+/*$brown-color: #aa9999;*/
+$brown-color: #A4A4A4;
 $grey-color: #bdbfc1;
 
 @media screen and (max-width: 480px){
@@ -194,6 +195,16 @@ body{
   }
 }
 
+#ofertaAyuda{
+    width: 80%;
+    margin: auto;
+    border: 3px solid white;
+    border-radius: 6px;
+    background-color: rgba(0,0,0,0.2);
+    text-align: center;
+    padding: 5px;
+}
+
 #nosotros{
   h3{
     display: inline-block;
@@ -223,7 +234,7 @@ body{
 #collaborators{
   @media screen and (max-width: 480px){
     background-position: center;
-    background-size: 200%;
+    background-size: auto;
     height: auto;
   }
   background-image: url('../img/collaborators.jpg');
