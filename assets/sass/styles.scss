@@ -5,6 +5,8 @@
   }
 }
 
+
+
 .parrafo_small{
   font-size: 16px;
 }
@@ -198,7 +200,15 @@ body{
   height: auto;
   .titulo-feed{
     color: white;
+    text-shadow: 0 0 10px #424242;
   }
+}
+
+#ofertaAyudaContainer{
+  float: initial;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
 
 #ofertaAyuda{
