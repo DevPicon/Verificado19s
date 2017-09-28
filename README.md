@@ -30,10 +30,10 @@ Para poder colaborar, te recomendamos lo suguiente:
 ¿Es tu primer Pull Request en Github? Te recomendamos tomar el siguiente curso gratuito sobre [Cómo contribuir a un proyectos open source en Github].
 
 Si necesitas ayuda, contacta a [Miguel Salazar], [Ismael Araiza] o [Enrique Diaz].
+
 ---
 
-
-## V19S 2.0
+## Roadmap de producto Verificado19s
 
 Estamos definiendo la versión 2.0 de Verificado19s, en cuanto tengamos claridad de intención y de objetivos, compartiremos un documento con todos los detalles y formas de contribuir.
 ---
