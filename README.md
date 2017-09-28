@@ -36,6 +36,7 @@ Si necesitas ayuda, contacta a [Miguel Salazar], [Ismael Araiza] o [Enrique Diaz
 ## Roadmap de producto Verificado19s
 
 Estamos definiendo la versión 2.0 de Verificado19s, en cuanto tengamos claridad de intención y de objetivos, compartiremos un documento con todos los detalles y formas de contribuir.
+
 ---
 
 ## Licencia
@@ -58,6 +59,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
 ---
 
 
