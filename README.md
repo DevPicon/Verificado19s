@@ -1,5 +1,5 @@
 # Acerca de Verificado19s
-===========================
+---
 
 Es una plataforma digital que verifica y organiza información para hacer más eficiente la respuesta ciudadana tras el sismo del 19 de septiembre de 2017.
 
@@ -15,7 +15,8 @@ Operamos en dos dimensiones:
 
 
 ## ¿Soy Ingeniero de Software, cómo puedo colaborar?
-===========================
+---
+
 ¡Muchísimas gracias por donar tu valioso tiempo!
 Para poder colaborar, te recomendamos lo suguiente:
 
@@ -35,7 +36,7 @@ Si necesitas ayuda, contacta a [Miguel Salazar], [Ismael Araiza] o [Enrique Diaz
 
 
 ## V19S 2.0
-===========================
+---
 Estamos definiendo la versión 2.0 de Verificado19s, en cuanto tengamos claridad de intención y de objetivos, compartiremos un documento con todos los detalles y formas de contribuir.
 
 
